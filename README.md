@@ -34,11 +34,7 @@ Practiced with DISTINCT to find all unique hospital services
 🎯 Challenge:
 List all unique hospital services available in the hospital.
 
-⚙️ Query I wrote:
-
-sql
-SELECT DISTINCT service AS hospital_services FROM patients;
-🧠 Reflection:
+🧠 Insights:
 The simplest queries are often the most powerful. Seeing how easy it is to find unique values gives me confidence to ask bigger questions next!
 
 📅 Day 2 of the IDC 21-Day SQL Challenge — Leveling Up!
@@ -60,10 +56,6 @@ Practiced on hospital datasets to find important trends
 🎯 Challenge:
 List all weeks where more than 100 patients requested admission in any service.
 
-⚙️ Query I wrote:
-
-sql
-SELECT week, service FROM services_weekly WHERE patients_request > 100;
-🧠 Reflection:
+🧠 Insights:
 Learning to filter with WHERE instantly sharpens your insights! Now I can spot busy weeks and highlight data that matters most. Excited for new challenges ahead!
 
